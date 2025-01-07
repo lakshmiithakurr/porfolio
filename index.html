@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="bg-img">
+        <!-- Header Section -->
+        <header>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content">
+                        <div class="up">
+                            <span class="up-0">L</span>
+                            <span class="up-2-8">A</span>
+                            <span class="up-3-7">K</span>
+                            <span class="up-5">S</span>
+                            <span class="up-4-6">H</span>
+                            <span class="up-2-8">M</span>
+                            <span class="up-0">I</span>
+                            <!-- <span class="up-2-8">M</span>
+                            <span class="up-0">E</span> -->
+                        </div>
+                        <div class="down">
+                            <span class="down-0">L</span>
+                            <span class="down-2-8">A</span>
+                            <span class="down-3-7">K</span>
+                            <span class="down-5">S</span>
+                            <span class="down-4-6">H</span>
+                            <span class="down-2-8">M</span>
+                            <span class="down-0">I</span>
+                            <!-- <span class="down-2-8">R</span>
+                            <span class="down-0">E</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#achievements">Achievements</a>
+                        <a href="#services">My work</a>
+                        <!-- Widget Button -->
+                        <!-- Widget Button with WhatsApp Icon -->
+                        <div class="widget-button">
+                            <button id="widgetButton"
+                                onclick="window.open('https://docs.google.com/forms/d/1TvJmriRhb3V0OfcGbWDaiWyqKszTV0kqFMfYxyFLdxk/edit', '_blank')">
+                                Contact Me
+                            </button>
+                        </div>
+
+
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Home Section -->
+        <section id="main">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <section id="home" class="fade-in">
+                        <h1>Welcome to My Portfolio</h1>
+                        <p>Hi, I'm <span class="highlight">Lakshmi Thakur</span>, a passionate developer!</p>
+                        <p>Specializing in creating dynamic and user-friendly web applications.</p>
+                        <button class="btn btn-primary">Explore More</button>
+                    </section>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <div class="photo-container">
+                        <img src="image.jpg" alt="Lakshmi Thakur" class="profile-photo">
+                        <div class="photo-background"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="waveWrapper">
+            <div class="wave waveTop"
+                style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="slide-up">
+
+            <h2>About Me</h2>
+            <p>I'm a dedicated web developer with expertise in front-end and back-end technologies. My passion lies in
+                creating seamless and visually appealing user experiences.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="fade-in">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>Laravel</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Other Skills</h3>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Git/GitHub</li>
+                        <li>REST APIs</li>
+                        <li>WCAG Compliance</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="slide-up">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="project">
+                        <h3>E-commerce Platform</h3>
+                        <p>A responsive and dynamic online store with integrated payment systems.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="project">
+                        <h3>Portfolio Website</h3>
+                        <p>An interactive and animated personal portfolio showcasing skills and projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="fade-in">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Certified in Full Stack Web Development</li>
+                <!-- <li>Won the "Best UI Design" award in a national-level hackathon</li> -->
+                <li>Developed over 30 WCAG-compliant applications</li>
+            </ul>
+        </section>
+
+
+        <!-- Testimonials Section -->
+        <section id="services">
+            <h2>My Work</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="1.png" alt="Web Development">
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Build and design responsive and interactive websites tailored to your business needs.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="2.png" alt="Mobile App Development">
+                    </div>
+                    <h3>Website Management</h3>
+                    <p>Develop high-performing web apps.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="3.png" alt="SEO Optimization">
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your website’s visibility and ranking on search engines with effective SEO strategies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="waveWrapper">
+            <div class="wave waveTop"
+                style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+
+        </div>
+        <!-- Contact Section -->
+        <!-- <section id="contact" class="fade-in">
+            <h2>Contact Me</h2>
+            <form id="contact-form" method="POST" action="send_email.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+
+
+        </section> -->
+
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <!-- Include Font Awesome CDN in the <head> of your HTML -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+        <div class="side-social">
+            <a href="https://wa.me/7875500848" target="_blank" class="social-icon whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <!-- <a href="https://twitter.com" target="_blank" class="social-icon twitter">
+        <i class="fab fa-twitter"></i>
+    </a> -->
+            <a href="https://instagram.com" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lakshmi-thakur/" target="_blank" class="social-icon linkedin">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <p>&copy; 2025 Lakshmi Thakur. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
